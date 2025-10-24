@@ -4,6 +4,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/151917f7-4bd0-4e79-af5f-4b3a0e453bdd/resourceGroups/az-course-rg-2/providers/microsoft.insights/components/azure-shivani-git</ApplicationInsightsResourceId>
+    <UserSecretsId>ee24ee94-42d4-4a95-8bb8-530c01ff5331</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
