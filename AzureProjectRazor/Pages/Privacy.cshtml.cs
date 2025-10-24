@@ -14,7 +14,6 @@ namespace AzureProjectRazor.Pages
 
         public void OnGet()
         {
-            throw new Exception("Testing insights");
         }
     }
 
